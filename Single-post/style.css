@@ -1,0 +1,380 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main1 {
+    background: linear-gradient(90deg, #09031D 20%, #F2295B00 100%), url(./a-person-holding-toolbox-for-repair-works-resize1\ -\ Kopya.jpg);
+    width: 100%;
+    height: 420px;
+    position: relative;
+    background-clip: padding-box;
+}
+
+.main1-section{
+    display: flex;
+}
+
+
+
+.main1-sectiondiv {
+background-color:  #2b1a66;
+position: absolute;
+width: 100px;
+height: 250px;
+left: 160px;
+top: 90px;
+}
+
+.main1-sectiontext{
+    position: absolute;
+    color: white;
+    top: 155px;
+    left: 200px;
+}
+
+.main1-sectiontext>h6{
+    color: #2d85e6;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+.main1__sectiontext>h2{
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 40px;
+    line-height: 2;
+}
+.main1__sectiontext>p{
+    line-height: 2.4;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
+.main2{
+    padding-top: 120px;
+}
+
+
+
+
+.bearded {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.h2 {
+    /* text-align: center; */
+    font-size: 42px;
+    background-color: #2B1A66;
+    color: #fff;
+    padding: 25px;
+    width: 830px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-left: 200px;
+}
+
+.p1 , .p2 {
+    padding: 30px 200px 0;
+}
+
+.metns {
+    display: flex;
+    padding: 0 200px 0 ;
+}
+
+.metns p {
+    color: #2b98e6;
+   width: 88px;
+    height: 154px;
+   font-size: 60px;
+}
+
+.section {
+    padding: 0 200px 0;
+}
+
+.clearing img {
+width: 372px;
+height: 403px;
+}
+
+.add i {
+    color: #2b98e6;
+}
+
+.section .right-side {
+    padding: 30px;
+    
+}
+
+.section .right-side p, span, .section p {
+    font-size: 15px;
+    color: #666;
+
+}
+
+
+
+
+
+   /*  */
+   .left-post img {
+    width: 355px;
+    height: 236px;
+}
+ 
+.left-post h3, .center-post h3, .right-post h3 {
+    text-align: start;
+    font-size: 25px;
+    color: #222;
+}
+
+/* .left-post .date i {
+    width: 20px;
+    height: 20px;
+}  */
+
+.left-post span, .centerpost span, .right-post span {
+    color: #626626;
+    align-items: center;
+}
+
+.left-post a, .centerpost a, .right-post a {
+    color: #2b98e6;
+    font-weight: 700;
+}
+
+.left-post p, .center-post p, .right-post p {
+    text-align: start;
+    color: #626626;
+}
+
+.center-post img {
+    width: 355px;
+    height: 236px;
+}
+
+.right-post img {
+    width: 355px;
+    height: 236px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section2 h2 {
+    color: #222;
+    font-size: 37px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-left: 100px;
+}
+
+.Recent-posts {
+   padding-left: 100px; 
+   padding-right: 100px; 
+}
+
+.section2  {
+    padding-top: 100px;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: #2b1a66;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+}
+.footer__div{
+    width: 1200px;
+    height: 355px;
+    background-color: #2b1a66;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;    top: -200px;
+}
+.footer__divtext{
+    margin-top: 50px;
+    margin-left: 100px;
+    position: relative;
+
+}
+.footer__divtext>h5{
+    color: #2d85e6;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 2;
+}
+.footer__divtext>h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.footer__divtext>button{
+    width: 200px;
+    height: 55px;
+    background-color: #2b98e6;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.footer__divtext>span>i{
+    font-size: 50px;
+    color: #2b98e6;
+    
+}
+.footer__divtext>span{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.footer__divimg{
+    position: absolute;
+    left: 600px;
+    top: -92px;
+    width: 37%;
+    
+}
+.footer__divimg>img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.footer__lists{
+    width: 100%;
+    height: 430px;
+    background-color: #2b1a66;  
+}
+.footer__list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer__list1{
+    width: 20%;
+}
+.footer__list1>img{
+    object-fit: cover;
+    width: 60%;
+}
+.footer__list1>p{
+    color: white;
+    margin-top: 20px;
+}
+.footer__icons{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+.footer__icons>div{
+    width: 40px;
+    height: 40px;
+    background-color: #2b98e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.footer__list2{
+    width: 15%;
+}
+.footer__list2>h5{
+    color: white;
+    font-size: 20px;
+}
+.footer__list2>span{
+    color: white;
+    line-height: 2.5;
+    padding: 10px;
+
+}
+.footer__list2>i{
+    color: #2d85e6;
+    line-height: 2.5;
+}
+.footer__list3{
+    width: 15%;
+}
+.footer__list3>h5{
+    color: white;
+    font-size: 20px;
+}
+.footer__list3>span{
+    color: white;
+    line-height: 2.5;
+    padding: 10px;
+
+}
+.footer__list3>i{
+    color: #2d85e6;
+    line-height: 2.5;
+}
+.footer__list4{
+    width: 25%;
+}
+.footer__list4>h5{
+    color: white;
+    font-size: 20px;
+}
+.footer__list4>p{
+    color: white;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+.footer__list4>input{
+    width: 365px;
+    height: 55px;
+    border: none;
+    margin-top: 10px;
+}
+.footer__list4>button{
+    width: 365px;
+    height: 55px;
+    border: none;
+    background-color: #2d85e6;
+    color: white;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.xett{
+    width: 1200px;
+    border: 1px solid #3b2681;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ftr{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
